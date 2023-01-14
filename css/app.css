@@ -1,0 +1,34 @@
+/* APPROCCIO DESKTOP FIRST dimensioni decrescenti
+e max -width*/
+
+.container{
+  max-width: 1140px;
+  width: 100%;
+  
+}
+
+/* gia con questa modifica riusciamo a sistemare
+la versione tablet che non si discosta
+troppo tranne per il restringimento gia 
+aiutato dal modificare il conatiner qua sopra */
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  
+
+  .row {
+    flex-wrap: wrap;
+    row-gap: 45px;
+  }
+
+  .steps .col,
+  .lessons .col,
+  .why-us .col {
+    width: 100%;
+    
+  }
+
+}
